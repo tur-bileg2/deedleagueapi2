@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "functions": {
+    "api/scrape/*.ts": {
+      "memory": 3008,
+      "maxDuration": 60
+    },
+    "api/player-details/*.ts": {
+      "memory": 3008,
+      "maxDuration": 60
+    }
+  },
+  "build": {
+    "env": {
+      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+    }
+  }
+}
